@@ -1,0 +1,24 @@
+{
+  "css" :{
+    "main":["app/styles/main.scss"],
+    "vendors": ["app/styles/vendors.scss"],
+    "libs":[
+      
+    ]
+  },
+  "js":{
+    "main": ["app/scripts/**/*.js"],
+    "vendors": [
+      "bower_components/modernizr/modernizr.js",
+      "bower_components/respond/dest/respond.min.js",
+      "bower_components/jquery/dist/jquery.min.js",
+      "bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"
+    ]
+  },
+  "etc":{
+    "maps":["bower_components/jquery/dist/jquery.min.map"],
+    "images": ["app/images/**/*"],
+    "templates": ["app/templates/**/*"],
+    "jsons": ["app/jsons/**/*.json"]
+  }
+}
